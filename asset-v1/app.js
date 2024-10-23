@@ -10,7 +10,7 @@ var app=new function(){this.name="Burn",this.version="1",this.date="2023",this.f
     {name:"6_puoha",color:"094B9D",uniqsnd:!0},
     {name:"7_boombox",color:"EFB028",uniqsnd:!1},
     {name:"8_coco",color:"21DF01",uniqsnd:!1},
-    {name:"9_Aye",color:"A43bdf",uniqsnd:!0},
+    {name:"22_letit",color:"a43bdf",uniqsnd:!1},
     {name:"10_chao",color:"EFB028",uniqsnd:!1},
     {name:"11_teung",color:"21DF01",uniqsnd:!1},
     {name:"12_biker",color:"21DF01",uniqsnd:!0},
@@ -19,11 +19,9 @@ var app=new function(){this.name="Burn",this.version="1",this.date="2023",this.f
     {name:"15_siffle",color:"EFB028",uniqsnd:!0},
     {name:"16_hmmm",color:"A43bdf",uniqsnd:!1},
     {name:"17_set",color:"A43bdf",uniqsnd:!1},
-    {name:"18_tichu",color:"094B9D",uniqsnd:!0},
-    {name:"19_error",color:"21DF01",uniqsnd:!0},
-    {name:"20_16bit",color:"EFB028",uniqsnd:!0},
     {name:"21_beatboxer",color:"094b9d",uniqsnd:!1},
-    {name:"22_letit",color:"a43bdf",uniqsnd:!1}]
+    {name:"19_error",color:"21DF01",uniqsnd:!0},
+    {name:"20_16bit",color:"EFB028",uniqsnd:!0}]
     ,this.bonusarray=[{name:"Urban", src:"b1-Urban-hb.mp4", code:"1,2,7,10,12",sound:"bonus-Urban", aspire:"aspire"},{name:"Set", src:"b2-Set-hb.mp4", code:"1,7,9,6,17", sound:"bonus-Set", aspire:"aspire_b"},];for(var n=0,o=this.animearray.length;n<o;n++)
     {var a=this.animearray[n].name;this.animearray[n].soundA=a+"_a",this.animearray[n].soundB=this.animearray[n].uniqsnd?a+"_a":a+"_b",this.animearray[n].anime=a+"-sprite.png",this.animearray[n].animeData=a+".json"}};
     
